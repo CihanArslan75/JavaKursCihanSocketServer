@@ -103,6 +103,7 @@ public class ClientHandler extends ServerFrame implements Runnable {
 	    
 	    public void tellEveryone(String message) 
 	    {
+	    System.out.println("clientSendTextttttt:"+clientSendText.get(0));
 		Iterator it = clientSendText.iterator();
 
 	        while (it.hasNext()) 

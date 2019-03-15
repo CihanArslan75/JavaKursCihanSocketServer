@@ -10,12 +10,13 @@ import com.cihan.socket.server.logic.ServerStart;
 import javax.swing.JButton;
 import java.awt.Color;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.util.List;
 import java.awt.event.ActionEvent;
 
 public class ServerFrame extends JFrame{
-	protected List clientSendText;
-    protected List<String> users;
+	protected ArrayList clientSendText;
+    protected ArrayList<String> users ;
 	protected JTextArea textServer ;
 	
 	public ServerFrame() {
